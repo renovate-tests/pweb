@@ -3,5 +3,3 @@ rvm:
 - 2.2
 before_install:
 - npm install
-
-script: npm start
