@@ -3,8 +3,16 @@
     "config:base"
   ],
   "rangeStrategy": "replace",
+  "timezone": "Asia/Manila",
   "lockFileMaintenance": {
     "enabled": true,
-    "extends": "schedule:weekly"
-  }
+    "extends": "schedule:monthly"
+  },
+  "automerge": true,
+  "major": {
+  	"automerge": false
+  },
+  "assignees": [
+  	"@renovatebot"
+  ]
 }
