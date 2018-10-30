@@ -31,7 +31,15 @@
           {{ end }}
         </ul>
         <p class="credits copyright text-muted">
-          &copy;
+          {{ if .Site.Author.name }}
+            {{ if .Site.Author.website }}
+              <a href="{{ .Site.Author.website }}">{{ .Site.Author.name }}</a>
+            {{ else }}
+              {{ .Site.Author.name }}
+            {{ end }}
+          {{ end }}
+
+           &nbsp;&bull;&nbsp;&copy;
           {{ .Site.LastChange.Format "2006" }} - {{ dateFormat "2006" now }}
           <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://forthebadge.com/images/badges/cc-sa.svg" /></a>
         </p>
@@ -101,5 +109,30 @@
 </noscript>
 <!-- End Piwik Code -->
 {{ end }}
+
+{{ if (.Site.Params.delayDisqus) (and .Site.DisqusShortname) }}
+<!-- Delayed Disqus -->
+<script type="text/javascript">
+$(function(){
+  $('#show-comments').on('click', function(){
+    var disqus_shortname = '{{ .Site.DisqusShortname }}';
+      
+    (function() {
+      var disqus = document.createElement('script'); 
+      disqus.type = 'text/javascript'; 
+      disqus.async = true;
+      disqus.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(disqus);
+    })();
+      
+    $(this).hide(); 
+    });
+  });
+      
+</script>
+<script id="dsq-count-scr" src="//{{ .Site.DisqusShortname }}.disqus.com/count.js" async></script>
+<!-- End Delayed Disqus -->
+{{ end }}
+
 
 {{- partial "footer_custom.html" . }}

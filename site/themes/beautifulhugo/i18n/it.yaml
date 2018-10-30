@@ -62,3 +62,13 @@
   translation: "Il tuo indirizzo mail"
 - id: yourWebsite
   translation: "Il tuo website" 
+
+# Related posts
+- id: seeAlso
+  translation: "Guarda anche"
+
+  # Delayed Disqus
+- id: show
+  translation: "Mostra"
+- id: comments
+  translation: "commenti"

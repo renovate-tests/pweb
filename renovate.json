@@ -8,11 +8,11 @@
     "enabled": true,
     "extends": "schedule:monthly"
   },
-  "automerge": true,
+  "automerge": false,
   "major": {
   	"automerge": false
   },
   "assignees": [
-  	"@renovatebot"
+  	"@renovate-bot"
   ]
 }
