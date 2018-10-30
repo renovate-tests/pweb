@@ -62,3 +62,13 @@
   translation: "Din e-postadresse"
 - id: yourWebsite
   translation: "Din webside" 
+
+# Related posts
+- id: seeAlso
+  translation: "Se også"
+
+  # Delayed Disqus
+- id: show
+  translation: "Vis"
+- id: comments
+  translation: "kommentarer"

@@ -62,3 +62,13 @@
   translation: "Via retpoŝtadreso"
 - id: yourWebsite
   translation: "Via retpaĝaro"
+
+# Related posts
+- id: seeAlso
+  translation: "Vidu ankaŭ"
+
+  # Delayed Disqus
+- id: show
+  translation: "Montru"
+- id: comments
+  translation: "komentoj" 

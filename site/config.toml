@@ -24,6 +24,8 @@ googleAnalytics = "UA-112313530-1"
   readingTime = true
   useHLJS = true
   socialShare = true
+  delayDisqus = false
+  showRelatedPosts = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -44,7 +46,7 @@ googleAnalytics = "UA-112313530-1"
   email = "tan.jonathanvincent@gmail.com"
   #facebook = "username"
   #googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  #github = "username"
+  github = "tanjonathanvincent"
   #gitlab = "username"
   #bitbucket = "username"
   twitter = "beincent"
@@ -52,7 +54,7 @@ googleAnalytics = "UA-112313530-1"
   linkedin = "tanjonathanvincent"
   #xing = "username"
   #stackoverflow = "users/XXXXXXX/username"
-  #snapchat = "username"
+  snapchat = "jbeanst"
   instagram = "beincent"
   #youtube = "user/username" # or channel/channelname
   #soundcloud = "username"
@@ -62,21 +64,27 @@ googleAnalytics = "UA-112313530-1"
   #vk = "username"
   #paypal = "username"
   #telegram = "username"
+  #500px = "username"
 
 [[menu.main]]
     name = "Blog"
     url = "/post/"
-    weight = 1
+    weight = 2
 
 [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 1
 
 [[menu.main]]
     name = "Gallery"
     url = "/gallery/"
-    weight = 2
+    weight = 3
+
+[[menu.main]]
+    name = "Designs"
+    url = "/designs/"
+    weight = 4
 
 #[[menu.main]]
 #    parent = "samples"
