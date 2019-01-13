@@ -1,35 +1,35 @@
 # Content
 - id: dateFormat
-  translation: "January 2, 2006"
+  translation: "02.01.2006"
 - id: shortdateFormat
-  translation: "Jan 2, 2006 15:04:05"
+  translation: "2 Jan, 2006 15:04:05"
 - id: postedOnDate
-  translation: "Posted on {{ .Count }}"
+  translation: "Gepostet am {{ .Count }}"
 - id: lastModified
-  translation: "(Last modified on {{ .Count }})"
+  translation: "(Zuletzt geändert am {{ .Count }})"
 - id: translationsLabel
-  translation: "Other languages: "
+  translation: "Andere Sprachen: "
 - id: translationsSeparator
   translation: ", "
 - id: readMore
-  translation: "Read More"
+  translation: "Mehr"
 - id: olderPosts
-  translation: "Older Posts"
+  translation: "Ältere Posts"
 - id: newerPosts
-  translation: "Newer Posts"
+  translation: "Neuere Posts"
 - id: previousPost
-  translation: "Previous Post"
+  translation: "Letzter Post"
 - id: nextPost
-  translation: "Next Post"
+  translation: "Nächster Post"
 - id: readTime
-  translation: "minutes"
+  translation: "Minuten"
 - id: words
-  translation: "words"
+  translation: "Wörter"
 
 
 # 404 page
 - id: pageNotFound
-  translation: "Whoops, this page doesn't exist. Move along. (404 error)"
+  translation: "Ups, diese Seite existiert nicht. (404 Error)"
 
 # Footer
 - id: poweredBy # Accepts HTML
@@ -37,15 +37,15 @@
 
 # Navigation
 - id: toggleNavigation
-  translation: "Toggle navigation"
+  translation: "Navigation"
 - id: languageSwitcherLabel
-  translation: "Language"
+  translation: "Sprache"
 - id: gcseLabelShort
-  translation: "Search"
+  translation: "Suche"
 - id: gcseLabelLong
-  translation: "Search {{ .Site.Title }}"
+  translation: "Suche {{ .Site.Title }}"
 - id: gcseClose
-  translation: "Close"
+  translation: "Schließen"
 
 # Staticman
 - id: noComment
@@ -63,12 +63,12 @@
 - id: yourWebsite
   translation: "You website"
 
-  # Related posts
+# Related posts
 - id: seeAlso
-  translation: "See also"
+  translation: "Siehe auch"
 
 # Delayed Disqus
 - id: show
-  translation: "Show"
+  translation: "Montru"
 - id: comments
-  translation: "comments"
+  translation: "komentoj"
