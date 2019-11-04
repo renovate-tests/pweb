@@ -49,26 +49,26 @@
 
 # Staticman
 - id: noComment
-  translation: "没有评论"
+  translation: "No comment"
 - id: oneComment
-  translation: "则评论"
+  translation: "comment"
 - id: moreComment
-  translation: "则评论"
+  translation: "comments"
 - id: useMarkdown
-  translation: "您可以使用Markdown语法"
+  translation: "You can use Markdown syntax"
 - id: yourName
-  translation: "你的名字"
+  translation: "Your name"
 - id: yourEmail
-  translation: "您的电子邮件地址"
+  translation: "Your email address"
 - id: yourWebsite
-  translation: "你的网页"
+  translation: "You website"
+
+# Related posts
+- id: seeAlso
+  translation: "也可以看看"
 
 # Delayed Disqus
 - id: show
   translation: "显示"
 - id: comments
-  translation: "则评论"
-
-# Related posts
-- id: seeAlso
-  translation: "也可以看看"
+  translation: "条评论" 
