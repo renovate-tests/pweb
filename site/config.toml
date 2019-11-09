@@ -55,7 +55,7 @@ googleAnalytics = "UA-112313530-1"
   #xing = "username"
   #stackoverflow = "users/XXXXXXX/username"
   snapchat = "jbeanst"
-  instagram = "_mrv56"
+  instagram = "beincent"
   #youtube = "user/username" # or channel/channelname
   #soundcloud = "username"
   spotify = "beincent"
@@ -65,7 +65,6 @@ googleAnalytics = "UA-112313530-1"
   #paypal = "username"
   #telegram = "username"
   #500px = "username"
-  #weibo = "username"
 
 [[menu.main]]
     name = "Blog"
