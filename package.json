@@ -42,7 +42,7 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
     "whatwg-fetch": "^3.0.0",
-    "yarn": "^1.12.1"
+    "yarn": "^1.22.0"
   },
   "resolutions": {
     "natives": "1.1.3"
