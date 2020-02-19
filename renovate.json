@@ -12,6 +12,7 @@
   "major": {
   	"automerge": false
   },
+  "prHourlyLimit": 0,
   "assignees": [
   	"@renovate-bot"
   ]
