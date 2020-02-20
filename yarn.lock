@@ -3607,7 +3607,6 @@ fsevents@^1.2.7:
   dependencies:
     bindings "^1.5.0"
     nan "^2.12.1"
-    node-pre-gyp "*"
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -4203,10 +4202,10 @@ https-proxy-agent@^4.0.0:
     agent-base "5"
     debug "4"
 
-hugo-bin@^0.52.0:
-  version "0.52.2"
-  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.52.2.tgz#e2a19dd098e45bdaacadd6bb8c4b9a5edd17cd16"
-  integrity sha512-DmGw7f6d8LZpkBw//dQM8evjGDdZ0hCri05uvljsw/wDnramam1ZcDzjOQubMcHgiX/3nazUvRKi6odueBgMzQ==
+hugo-bin@^0.53.0:
+  version "0.53.0"
+  resolved "https://registry.yarnpkg.com/hugo-bin/-/hugo-bin-0.53.0.tgz#c54f0807beef0b03999af298c538bfa477b51568"
+  integrity sha512-PuN09WvkHuVtsj3CFd/xwtfuZmxDOO5kNFLocn8KUNknCYzJKWhDuYRioxP7VYx4aqvFVn9ST4/WCWdubZc53A==
   dependencies:
     bin-wrapper "^4.1.0"
     pkg-conf "^3.1.0"
